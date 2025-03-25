@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 "use client";
 import {
   Button,
@@ -11,7 +13,6 @@ import {
   Title,
   Tooltip,
 } from "@mantine/core";
-import { useMediaQuery } from "@mantine/hooks";
 import { Copy, RefreshCcw } from "lucide-react";
 import React, { useCallback, useMemo, useRef, useState } from "react";
 
