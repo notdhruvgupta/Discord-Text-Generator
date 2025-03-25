@@ -13,7 +13,7 @@ function About() {
         <ListItem>1. Type or paste your message in the editor above</ListItem>
         <ListItem>2. Select the text you want to color</ListItem>
         <ListItem>3. Select the Foreground or Background color and add styles</ListItem>
-        <ListItem>4. Click "Copy" when you're done</ListItem>
+        <ListItem>4. Click &quot;Copy&quot; when you&apos;re done</ListItem>
         <ListItem>5. Paste the text into Discord</ListItem>
       </List>
     </Card>

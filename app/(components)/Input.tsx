@@ -105,7 +105,7 @@ const StyleButton = ({
 );
 
 function Input() {
-  const isMobile = useMediaQuery("(max-width: 768px)");
+  // const isMobile = useMediaQuery("(max-width: 768px)");
   const editorRef = useRef<HTMLDivElement>(null);
   const [textStyles, setTextStyles] = useState<TextStyles>({
     bold: false,

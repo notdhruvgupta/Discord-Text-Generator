@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import { Card, Text, Title } from "@mantine/core";
+import { Text, Title } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 
 function Navbar() {
