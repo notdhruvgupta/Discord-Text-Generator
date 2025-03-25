@@ -1,9 +1,7 @@
-import { Card, Title, List, ListItem, ThemeIcon } from "@mantine/core";
-// import { IconCircleCheck } from "@tabler/icons-react"; // Optional icon for list items
+import { Card, Title, List, ListItem } from "@mantine/core";
 import React from "react";
 
 function About() {
-    console.log(List, ListItem, ThemeIcon);
   return (
     <Card shadow="xs" withBorder padding={20} radius={10}>
       <Title order={3} mb="md">

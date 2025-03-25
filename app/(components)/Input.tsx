@@ -182,6 +182,16 @@ function Input() {
       .join("")}\n\`\`\``;
   }, []);
 
+  const handleReset = useCallback(() => {
+    if (editorRef.current) {
+      editorRef.current.innerHTML = "";
+      setTextStyles({
+        bold: false,
+        underline: false,
+      });
+    }
+  }, []);
+
   return (
     <Card shadow="xs" withBorder padding={20} radius={10}>
       <Stack gap={15}>
@@ -227,6 +237,7 @@ function Input() {
 
         <Group gap={10}>
           <Button
+            onClick={handleReset}
             leftSection={<RefreshCcw size={16} />}
             color="red"
             variant="light"
